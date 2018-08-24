@@ -26,9 +26,9 @@ import java.util.Map;
 @Slf4j
 public class DemoController {
 
-    @Autowired
-    @Qualifier("primaryJdbcTemplate")
-    private JdbcTemplate jdbcTemplate;
+//    @Autowired
+//    @Qualifier("primaryJdbcTemplate")
+//    private JdbcTemplate jdbcTemplate;
 
     @Autowired
     private PersonRepository personRepository;
